@@ -1,17 +1,35 @@
 ## Completed
-
+---
+<li>Website running</li>
 
 <br/>
 
 ## In progress
-
+---
+<li>Improving UI</li>
+<li>Incorporating security functions</li>
+<li>Password saving function</li>
+<li>Basic account creation function</li>
 
 <br/>
 
-## Work Done
-Scott Yuk <br/>
-Keaton Wong <br/>
-Zolbo Tomita <br/>
+## Assigned Work
+---
+<li>Scott Yuk</li>
+<ul>Completed
+<li>Website working locally</li></ul>
+<ul>Pending
+<li>Security functionality</li></ul>
+<li>Keaton Wong</li>
+<ul>Completed
+<li>Website working locally</li></ul>
+<ul>Pending
+<li>UI clarity</li></ul>
+<li>Zolbo Tomita</li>
+<ul>Completed
+<li>Website working locally</li></ul>
+<ul>Pending
+<li>Account creation functionality</li></ul>
 
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
