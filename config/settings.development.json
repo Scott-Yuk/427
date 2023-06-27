@@ -5,9 +5,9 @@
   ],
 
   "defaultData": [
-    { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent" },
-    { "name": "Bicycle", "quantity": 2, "owner": "john@foo.com", "condition": "poor" },
-    { "name": "Banana", "quantity": 2, "owner": "admin@foo.com", "condition": "good" },
-    { "name": "Boogie Board", "quantity": 2, "owner": "admin@foo.com", "condition": "excellent" }
+    { "name": "Riot Games", "password": "zjPFaAbgBW9v21pQ4Vup", "owner": "john@foo.com" },
+    { "name": "Steam", "password": "d67orgvJyIcQ3U4zcBjE", "owner": "john@foo.com" },
+    { "name": "Riot Games", "password": "eL9iBnsQhkk1LtbgbLN4", "owner": "admin@foo.com" },
+    { "name": "Steam", "password": "A2jSdqeWNTc1LyDdSoan", "owner": "admin@foo.com" }
   ]
 }
