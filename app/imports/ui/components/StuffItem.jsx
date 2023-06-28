@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom';
 const StuffItem = ({ stuff }) => (
   <tr>
     <td>{stuff.name}</td>
-    <td>{stuff.quantity}</td>
-    <td>{stuff.condition}</td>
+    <td>{stuff.password}</td>
     <td>
       <Link to={`/edit/${stuff._id}`}>Edit</Link>
     </td>
@@ -18,8 +17,7 @@ const StuffItem = ({ stuff }) => (
 StuffItem.propTypes = {
   stuff: PropTypes.shape({
     name: PropTypes.string,
-    quantity: PropTypes.number,
-    condition: PropTypes.string,
+    password: PropTypes.string,
     _id: PropTypes.string,
   }).isRequired,
 };

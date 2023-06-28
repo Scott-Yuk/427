@@ -28,14 +28,13 @@ const ListStuff = () => {
       <Row className="justify-content-center">
         <Col md={7}>
           <Col className="text-center">
-            <h2>List Stuff</h2>
+            <h2>Passwords List</h2>
           </Col>
           <Table striped bordered hover>
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Quantity</th>
-                <th>Condition</th>
+                <th>Password</th>
                 <th>Edit</th>
               </tr>
             </thead>
