@@ -7,6 +7,7 @@ import SimpleSchema from 'simpl-schema';
 import SimpleSchema2Bridge from 'uniforms-bridge-simple-schema-2';
 import { AutoForm, ErrorsField, SubmitField, TextField } from 'uniforms-bootstrap5';
 import ReCAPTCHA from 'react-google-recaptcha';
+import swal from 'sweetalert';
 
 /**
  * SignUp component is similar to signin component, but we create a new user instead.
@@ -30,6 +31,7 @@ const SignUp = ({ location }) => {
       } else {
         setError('');
         setRedirectToRef(true);
+        swal('Success!', 'Account created successfully.', 'success');
       }
     });
   };
