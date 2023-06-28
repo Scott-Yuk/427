@@ -124,12 +124,12 @@ Overall within the short time given to create a functioning program a lot has be
 ---
 Online Repo [Repository](https://github.com/Scott-Yuk/427) 
 
-Final Documentation [Page]()
+Final Documentation [Page](https://github.com/Scott-Yuk/427/blob/main/ICS%20427%20Project%20-%20Assignment%205.pdf)
 
-Release Version [Program](https://github.com/Scott-Yuk/scott-yuk.github.io/releases/tag/Security)
+Release Version [Program](https://github.com/Scott-Yuk/427/releases/tag/v1.0.0)
 
 Wiki Page [Document](
-https://github.com/Scott-Yuk/scott-yuk.github.io/wiki/Wallacea)
+https://github.com/Scott-Yuk/427/wiki/SafePass)
 <br/>
 
 [![ci-meteor-application-template-react](https://github.com/ics-software-engineering/meteor-application-template-react/actions/workflows/ci.yml/badge.svg)](https://github.com/ics-software-engineering/meteor-application-template-react/actions/workflows/ci.yml)
