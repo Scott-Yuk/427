@@ -19,14 +19,16 @@ import NotAuthorized from '../pages/NotAuthorized';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
-/* REMOVED <Route path="/admin" element={<AdminProtectedRoute ready={ready}><ListStuffAdmin /></AdminProtectedRoute>} /> */
+/* REMOVED FROM DIRECTLY BEFORE RETURN
+ *   const { ready } = useTracker(() => {
+ *     const rdy = Roles.subscription.ready();
+ *     return {
+ *       ready: rdy,
+ *     };
+ *   });
+ * REMOVED FROM INSIDE RETURN
+ * <Route path="/admin" element={<AdminProtectedRoute ready={ready}><ListStuffAdmin /></AdminProtectedRoute>} /> */
 const App = () => {
-  /* const { ready } = useTracker(() => {
-    const rdy = Roles.subscription.ready();
-    return {
-      ready: rdy,
-    };
-  }); */
   return (
     <Router>
       <div className="d-flex flex-column min-vh-100">
